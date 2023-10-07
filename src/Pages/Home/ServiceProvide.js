@@ -26,7 +26,7 @@ const ServiceProvide = () => {
     },
   ];
   return (
-    <div className="section-container my-20">
+    <div className="section-container my-40">
       <div className="text-center text-black mb-10">
         <h3 className="text-xl font-bold uppercase">Our Services</h3>
         <h1 className="text-4xl uppercase">Services We Provide</h1>
