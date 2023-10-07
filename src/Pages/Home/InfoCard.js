@@ -5,7 +5,7 @@ import phoneImg from "../../assets/icons/phone.svg";
 
 const InfoCard = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       <div className="card lg:card-side bg-gradient-to-r from-sky-500 to-indigo-500 p-2 text-white shadow-xl">
         <img className="w-[60px]" src={clockImg} alt="" />
         <div className="card-body">
