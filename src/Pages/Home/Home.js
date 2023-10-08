@@ -9,6 +9,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 
+
 const Home = () => {
     return (
         <div>
