@@ -4,9 +4,9 @@ import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
 import { format } from "date-fns";
 
-const AppointmentBanner = () => {
+const AppointmentBanner = ({date, setDate}) => {
 
-    const [date, setdate] = useState(new Date());
+   
 
   return (
     <div className="hero min-h-screen">
@@ -16,11 +16,11 @@ const AppointmentBanner = () => {
           <DayPicker
             mode="single"
             selected={date}
-            onSelect={setdate}
+            onSelect={setDate}
           />
         </div>
       </div>
-      <p>You have selected: {format(date, 'PP')}</p>
+      
     </div>
   );
 };
