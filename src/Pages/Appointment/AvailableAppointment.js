@@ -26,7 +26,7 @@ useEffect(() =>{
         setTreatment = {setTreatment}
         ></AppointmentServices>)
     }
-    {treatment && <BookingModal date={date} treatment={treatment}></BookingModal>}
+    {treatment && <BookingModal date={date} treatment={treatment} setTreatment = {setTreatment}></BookingModal>}
 </div>
         </div>
     );
